@@ -410,16 +410,117 @@
                     </li>
                 </ul>
             </div>
+            <!-- Подписка -->
+            <div class="subscription">
+                <h4 class="come-on-title">Подпишитесь на рассылку</h4>
+                <form class="form-footer">
+                    <label class="form-footer-label" for="user-email"></label>
+                    <input 
+                        class="form-footer-input"
+                        id="user-email"
+                        type="email" 
+                        name="user-email" 
+                        placeholder="E-mail"
+                        required
+                    >
+                    <div class="">
+                        <button class="subscription-button button" type="submit">
+                            Подписаться
+                            <svg class="subscription-icon" aria-hidden="true">
+                                <use href="./images/icons.svg#plane"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
     <!-- Modal window -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button class="modal-close-button" type="button" data-modal-close>
                 <svg class="close-black-18dp-icon">
                     <use href="./images/icons.svg#close-black-18dp"></use>
                 </svg>
             </button>
+            <div class="modal-inner">
+                <h4 class="modal-title">Оставьте свои данные, мы вам перезвоним</h4>
+                <form>
+                    <fieldset>
+                        <div class="form-field">
+                            <label class="form-field-label" for="modal-user-name">Имя</label>
+                            <div class="place-icon">
+                                <input
+                                    class="form-field-input"
+                                    id="modal-user-name"
+                                    type="text"
+                                    name="modal-user-name"
+                                    pattern="^[а-аЯ-Я]+\s[а-аЯ-Я]+$"
+                                    required
+                                    autofocus
+                                >
+                                <svg class="form-field-icon" aria-hidden="true">
+                                    <use href="./images/icons.svg#man"></use>
+                                </svg>
+                            </div>
+                           
+                        </div>
+                        <div class="form-field">
+                            <label class="form-field-label" for="modal-user-phone">Телефон</label>
+                            <div class="place-icon">
+                                <input class="form-field-input" id="modal-user-phone" type="tel" name="modal-user-phone">
+                                <svg class="form-field-icon" aria-hidden="true">
+                                    <use href="./images/icons.svg#phone"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label class="form-field-label" for="modal-user-email">Почта</label>
+                            <div class="place-icon">
+                                <input class="form-field-input" id="modal-user-email" type="email" name="modal-user-email">
+                                <svg class="form-field-icon" aria-hidden="true">
+                                    <use href="./images/icons.svg#letter"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <label class="form-field-label form-comment" for="user-comment">Комментарий</label>
+                                <textarea 
+                                    class="form-field-input form-field-textarea" 
+                                    id="user-comment" 
+                                    maxlength="1000"
+                                    name="user-comment"
+                                    placeholder="Введите текст"
+                                >
+                            </textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset class="checkbox-agreement">
+                        <div class="form-field checkbox">
+                            <label class="checkbox-label" for="agreement">
+                                Соглашаюсь с рассылкой и принимаю &nbsp;
+                                <a href="#" class="checkbox-text-link"> Условия договора</a>
+                            </label>
+                            <input 
+                                class="checkbox-input visually-hidden" 
+                                id="agreement"
+                                type="checkbox"
+                                name="agreement"
+                            >
+                            <svg class="checkbox-icon" aria-label="true">
+                                <use href="./images/icons.svg#checkmark"></use>
+                            </svg>
+                            
+                            
+                        </div>
+                    </fieldset>
+                    <div class="form-field">
+                        <button class="form-field-button button" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
