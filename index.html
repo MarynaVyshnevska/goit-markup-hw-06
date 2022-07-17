@@ -436,11 +436,11 @@
         </div>
     </footer>
     <!-- Modal window -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
         <div class="modal">
             <button class="modal-close-button" type="button" data-modal-close>
-                <svg class="close-black-18dp-icon">
-                    <use href="./images/icons.svg#close-black-18dp"></use>
+                <svg class="close-black-icon">
+                    <use href="./images/icons.svg#close-black"></use>
                 </svg>
             </button>
             <div class="modal-inner">
@@ -499,21 +499,25 @@
                     </fieldset>
                     <fieldset class="checkbox-agreement">
                         <div class="form-field checkbox">
+                            <div class="checkbox-control">
+                                <input 
+                                    class="checkbox-input visually-hidden" 
+                                    id="agreement"
+                                    type="checkbox"
+                                    name="agreement"
+                                >
+                                <svg class="checkbox-box-icon" aria-hidden="true">
+                                     <use href="./images/icons.svg#box"></use>
+                                </svg>
+                                <svg class="checkbox-icon" aria-hidden="true">
+                                    <use href="./images/icons.svg#checkmark"></use>
+                                </svg>
+                            </div>
+                            
                             <label class="checkbox-label" for="agreement">
-                                Соглашаюсь с рассылкой и принимаю &nbsp;
+                                Соглашаюсь с рассылкой и принимаю&nbsp;
                                 <a href="#" class="checkbox-text-link"> Условия договора</a>
                             </label>
-                            <input 
-                                class="checkbox-input visually-hidden" 
-                                id="agreement"
-                                type="checkbox"
-                                name="agreement"
-                            >
-                            <svg class="checkbox-icon" aria-label="true">
-                                <use href="./images/icons.svg#checkmark"></use>
-                            </svg>
-                            
-                            
                         </div>
                     </fieldset>
                     <div class="form-field">
