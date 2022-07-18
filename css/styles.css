@@ -69,12 +69,17 @@ ul {
     padding: 0;
 }
 
-fieldset {
+fieldset, 
+label, 
+input, 
+textarea {
     margin: 0;
     padding: 0;
     border: 0;
         
 }
+
+
 
 
 .container {
@@ -937,7 +942,7 @@ address {
 }
 
 .modal-inner {
-    margin: 40px;
+    padding: 40px;
     outline: none;
 }
 
@@ -1055,7 +1060,6 @@ address {
     border: 1px solid var(--color-link);
     border-radius: 4px;
     outline: none;
-    margin-top: 4px;
     cursor: pointer;
 }
 
@@ -1081,7 +1085,7 @@ address {
 
 .checkbox-box-icon {
     position: absolute;
-    top: 2px;
+    top: 4px;
     left: 8px;
     width: 16px;
     height: 15px;
@@ -1097,7 +1101,7 @@ address {
 
 .checkbox-icon {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 11px;
     transform: translateY(-50%);
     width: 11px;
