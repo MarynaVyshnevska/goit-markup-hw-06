@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Студия</title>
+    <title>WebStudio</title>
     <!-- место для шрифта -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,40 +20,40 @@
 <body class="body">
     <header>
         <div class="container">
-            <div class="heder-inner">
+            <div class="header header-inner">
                 <div  class="menu">
                 <!-- Верхняя линия Главная-->
                 <a href="./index.html" class="logo">
-                    <span class="logo-first">Web</span>
-                    <span class="logo-black">Studio</span>
+                    <span class="logo__first">Web</span>
+                    <span class="logo__black">Studio</span>
                 </a>
                 
-                    <ul class="menu-nav">
-                        <li class="header-menu-item">
-                            <a class="menu-link imhere" href="#">Студия</a>
+                    <ul class="menu__nav">
+                        <li class="menu__item">
+                            <a class="menu__link imhere" href="#">Студия</a>
                         </li>
-                        <li class="header-menu-item">
-                            <a class="menu-link" href="./portfolio.html">Портфолио</a>
+                        <li class="menu__item">
+                            <a class="menu__link" href="./portfolio.html">Портфолио</a>
                         </li>
-                        <li class="header-menu-item">
-                            <a class="menu-link" href="#">Контакты</a>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Контакты</a>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <ul class="adr">
-                        <li class="adr-item">
-                            <a class="adr-link" href="mailto:info@devstudio.com">
-                                <svg class="adr-icon">
+                        <li class="adr__item">
+                            <a class="adr__link" href="mailto:info@devstudio.com">
+                                <svg class="adr__icon">
                                     <use href="./images/icons.svg#envelope" aria-hidden="true"></use>
                                 </svg>
                                 info@devstudio.com
                             </a>
                         </li>
-                        <li class="adr-item">
+                        <li class="adr__item">
                                
-                            <a class="adr-link" href="tel:+380961111111">
-                                 <svg class="adr-icon">
+                            <a class="adr__link" href="tel:+380961111111">
+                                 <svg class="adr__icon">
                                     <use href="./images/icons.svg#smartphone" aria-hidden="true"></use>
                                 </svg>
                                 +38 096 111 11 11
@@ -65,12 +65,12 @@
         </div>
     </header>
     <main>
-        <section class="first-head overlay">
+        <section class="hero overlay">
             <div class="container">
                 <!-- Шапка -->
-                <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button 
-                class="button-header" type="button" style="width: 200px; height:50px;" data-modal-open>
+                class="button hero__button" type="button" style="width: 200px; height:50px;" data-modal-open>
                 Заказать услугу
                 </button>
             </div>
@@ -79,68 +79,68 @@
             <div class="container">
                 <!-- О нас -->
                 <!-- <h2>Наши преимущества</h2> -->
-                <ul class="benefits-list-inner">
-                    <li class="benefits-list">
-                        <div class="benefits-img">
-                            <svg class="benefits-icon">
+                <ul class="benefits-inner">
+                    <li class="benefits__list">
+                        <div class="benefits__img">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#antenna" aria-hidden="true"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">Внимание к деталям</h3>
-                        <p class="benefits-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="benefits__title title">Внимание к деталям</h3>
+                        <p class="benefits__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="benefits-list">
-                        <div class="benefits-img">
-                            <svg class="benefits-icon">
+                    <li class="benefits__list">
+                        <div class="benefits__img">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#clock" aria-hidden="true"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">Пунктуальность</h3>
-                        <p class="benefits-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="benefits__title title">Пунктуальность</h3>
+                        <p class="benefits__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="benefits-list">
-                        <div class="benefits-img">
-                            <svg class="benefits-icon">
+                    <li class="benefits__list">
+                        <div class="benefits__img">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#diagram" aria-hidden="true"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">Планирование</h3>
-                        <p class="benefits-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="benefits__title title">Планирование</h3>
+                        <p class="benefits__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="benefits-list">
-                        <div class="benefits-img">
-                            <svg class="benefits-icon">
+                    <li class="benefits__list">
+                        <div class="benefits__img">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#astronaut" aria-hidden="true"></use>
                             </svg>
                         </div>
-                        <h3 class="benefits-title">Современные технологии</h3>
-                        <p class="benefits-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="benefits__title title">Современные технологии</h3>
+                        <p class="benefits__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="about">
             <div class="container">
-                <h2 class="big-title">Чем мы занимаемся</h2>
+                <h2 class="big-title about__title title">Чем мы занимаемся</h2>
                 <!-- Boxes with pictures -->
                 <!-- Скорее всего к каждому фото будет ссылка с инфо! -->
-                <ul class="about-inner">
-                    <li class="about-list">
-                        <div class="about-item">
+                <ul class="about__inner">
+                    <li class="about__list">
+                        <div class="about__item">
                             <img src="./images/img1.jpg" alt="Десктопные приложения" width="370" height="295"/>
-                            <span class="about-text">Десктопные приложения</span>
+                            <span class="about__text">Десктопные приложения</span>
                         </div>
                     </li>
-                    <li class="about-list">
-                        <div class="about-item">
+                    <li class="about__list">
+                        <div class="about__item">
                             <img src="./images/img2.jpg" alt="Мобильные приложения" width="370" height="295"/>
-                            <span class="about-text">Мобильные приложения</span>
+                            <span class="about__text">Мобильные приложения</span>
                         </div>
                     </li>
-                    <li class="about-list">
-                        <div class="about-item">
+                    <li class="about__list">
+                        <div class="about__item">
                             <img src="./images/img3.jpg" alt="Дизайнерские решения" width="370" height="295"/>
-                            <span class="about-text">Дизайнерские решения</span>
+                            <span class="about__text">Дизайнерские решения</span>
                         </div>
                     </li>
                 </ul>
@@ -148,14 +148,14 @@
         </section>
         <section class="team">
             <div class="container">
-                <h2 class="big-title">Наша команда</h2>
+                <h2 class="big-title title team__title">Наша команда</h2>
                 <!-- Team's fotos -->
                 <ul class="team-inner">
                     <li class="team-list">
                         <img 
                         src="./images/igor.jpg" alt="product designer" width="270" height="260"
                         />
-                        <h3 class="team-title">Игорь Демьяненко</h3>
+                        <h3 class="team-title title">Игорь Демьяненко</h3>
                         <p class="team-text">Product Designer</p>
                         <ul class="social-list">
                             <li class="social-item">
@@ -192,7 +192,7 @@
                         <img 
                         src="./images/olga.jpg" alt="frontend developer" width="270" height="260"
                         />
-                        <h3 class="team-title">Ольга Репина</h3>
+                        <h3 class="team-title title">Ольга Репина</h3>
                         <p class="team-text">Frontend Developer</p>
                         <ul class="social-list">
                             <li class="social-item">
@@ -229,7 +229,7 @@
                         <img 
                             src="./images/nikolay.jpg" alt="marketing" width="270" height="260"
                         />
-                        <h3 class="team-title">Николай Тарасов</h3>
+                        <h3 class="team-title title">Николай Тарасов</h3>
                         <p class="team-text">Marketing</p>
                         <ul  class="social-list">
                             <li class="social-item">
@@ -266,7 +266,7 @@
                         <img
                         src="./images/michail.jpg" alt="ui designer" width="270" height="260"
                         />
-                        <h3 class="team-title">Михаил Ермаков</h3>
+                        <h3 class="team-title title">Михаил Ермаков</h3>
                         <p class="team-text">UI Designer</p>
                         <ul class="social-list">
                             <li class="social-item">
@@ -304,7 +304,7 @@
         </section>
         <section class="clients">
             <div class="container">
-                <h2 class="big-title">Постоянные клиенты</h2>
+                <h2 class="big-title title client-title">Постоянные клиенты</h2>
                 <ul class="clients-inner">
                     <li class="client-box">
                         <a class="client-web" href="#">
